@@ -1,5 +1,7 @@
 {
   "name": "test-photo-library-plugin",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
