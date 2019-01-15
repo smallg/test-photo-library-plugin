@@ -1,4 +1,4 @@
-###Error message:
+### Error message:
 1. Cannot find module '../cordova/platform_metadata'
    ```#bash
    ionic cordova plugin rm cordova-plugin-add-swift-support --force
