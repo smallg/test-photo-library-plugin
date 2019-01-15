@@ -10,7 +10,7 @@
     latest version 2.2.0, do not use latest.
     ```
     
-### Config description for camera and photo library
+### Config description for camera and photo library(for iOS)
 ```bash
     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
         <string>need photo library access to get pictures from there</string>
