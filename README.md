@@ -10,6 +10,16 @@
     latest version 2.2.0, do not use latest.
     ```
     
+### Config description for camera and photo library
+```bash
+    <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+        <string>need photo library access to get pictures from there</string>
+    </edit-config>
+    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+        <string>need location access to find things nearby</string>
+    </edit-config>
+```
+    
 ### Composite background graph and qrcode
 ```html
     <img id="myImg"/>
