@@ -19,6 +19,15 @@
         <string>need location access to find things nearby</string>
     </edit-config>
 ```
+
+### Read permission is added for your app by the plugin automatically. To make writing possible, add following to your config.xml:
+```xml
+<platform name="android">
+  <config-file target="AndroidManifest.xml" parent="/*">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  </config-file>
+</platform>
+```
     
 ### Composite background graph and qrcode
 ```html
