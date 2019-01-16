@@ -1,4 +1,4 @@
-### Error message:
+#### Error message:
 1. Cannot find module '../cordova/platform_metadata'
    ```bash
    ionic cordova plugin rm cordova-plugin-add-swift-support --force
@@ -10,7 +10,7 @@
     latest version 2.2.0, do not use latest.
     ```
     
-### Config description for camera and photo library(for iOS)
+#### Config description for camera and photo library(for iOS)
 ```xml
 <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
     <string>need photo library access to get pictures from there</string>
@@ -20,7 +20,7 @@
 </edit-config>
 ```
 
-### Read permission is added for your app by the plugin automatically. To make writing possible, add following to your config.xml:
+#### Read permission is added for your app by the plugin automatically. To make writing possible, add following to your config.xml:
 ```xml
 <platform name="android">
   <config-file target="AndroidManifest.xml" parent="/*">
@@ -29,7 +29,7 @@
 </platform>
 ```
     
-### Composite background graph and qrcode
+#### Composite background graph and qrcode
 ```html
     <img id="myImg"/>
 ```
