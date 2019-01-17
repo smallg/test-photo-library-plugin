@@ -78,10 +78,12 @@ export class PhotoLibraryPage {
     }
 
     savePhoto() {
-        this.photoLibrary.requestAuthorization().then(()=>{
-            this.photoLibrary.saveImage(encodeURI('http://47.75.244.75/test-files/mengxuan_store.png'),'mengxuan_store.png').then(()=>{
+        this.photoLibrary.requestAuthorization().then(() => {
+            this.photoLibrary.saveImage(encodeURI('http://47.75.244.75/test-files/mengxuan_store.png'), 'mengxuan').then(() => {
                 console.log('fk save')
-            })
+            }).catch(err => {
+                console.log(err)
+            });
         });
 
     }
